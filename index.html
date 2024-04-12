@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Github Favorites</h1>
+            <div class="search">
+                <label class = "sr-only" for="github-search">Usuário do Github</label>
+                <input id="github-search" type="text" placeholder="Usuário do Github">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/luizneto7.png" alt="Imagem de Luiz Neto">
+                        <a href="https://github.com/luizneto7" target="_blank">
+                            <p>Luiz Neto</p>
+                            <span>luizneto7</span>
+                        </a>
+                    </td>
+                    <td class="repositories">47</td>
+                    <td class="followers">120000</td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+            </tbody>        
+        </table>
+    </div>
+</body>
+</html>
