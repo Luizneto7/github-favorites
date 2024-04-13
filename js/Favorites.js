@@ -99,14 +99,14 @@ export class FavoritesView extends Favorites {
         const tr = document.createElement("tr")
         tr.innerHTML = `
         <td class="user">
-            <img src="https://github.com/luizneto7.png" alt="Imagem de Luiz Neto">
-            <a href="https://github.com/luizneto7" target="_blank">
-                <p>Luiz Neto</p>
-                <span>luizneto7</span>
+            <img src="" alt="">
+            <a href="" target="_blank">
+                <p></p>
+                <span></span>
             </a>
         </td>
-        <td class="repositories">47</td>
-        <td class="followers">120000</td>
+        <td class="repositories"></td>
+        <td class="followers"></td>
         <td>
             <button class="remove">&times;</button>
         </td>
